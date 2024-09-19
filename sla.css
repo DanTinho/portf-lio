@@ -1,0 +1,42 @@
+header {
+    background-color: rgb(42, 42, 209);
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.slafodase {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.slamain h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+.linhademerda {
+    width: 0;
+    text-align: center;
+    writing-mode: vertical-rl;
+}
+
+footer {
+    background-color: rgb(42, 42, 209);
+    padding: 20px 0;
+}
+
+.slafooter {
+    text-align: center;
+    color: white;
+}
+
+.slafooter h3 {
+    font-size: 50px;
+    margin: 20px;
+}
+
+
+
