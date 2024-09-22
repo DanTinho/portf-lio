@@ -19,12 +19,160 @@ header {
     margin-top: 0px
 }
 
-.linhafoda {
-    width: 5px;
-    height: 500px;
+.slamain h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    color: rgb(240, 0, 0);
+    margin-top: 10px;
+}
+
+.pjtdsetembro li {
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgb(42, 42, 209);
+    border-radius: 5px;
+    margin: 5px 15%;
     background-color: rgb(42, 42, 209);
-    margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    transition: 0.4s all;
+}
+
+.pjtdsetembro li a {
+    text-decoration: none;
+}
+
+.pjtdsetembro li:hover {
+    transform: scale(1.1,1.1);
+    border-color: rgb(240, 0, 0);
+}
+
+.pjtdsetembro a:hover p {
+    color: rgb(240, 0, 0);;
+}
+
+.pjtdsetembro p {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.pjtdsetembro h6 {
+    margin: 5px 1%;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+}
+
+.pjtdsetembro h5 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: left;
+    font-size: 28px;
+    color: rgb(121, 228, 255);
+}
+
+
+.pjtdoutubro li {
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgb(42, 42, 209);
+    border-radius: 5px;
+    margin: 5px 15%;
+    background-color: rgb(42, 42, 209);
+    margin-bottom: 15px;
+    transition: 0.4s all;
+}
+
+.pjtdoutubro li a {
+    text-decoration: none;
+}
+
+.pjtdoutubro li:hover {
+    transform: scale(1.1,1.1);
+    border-color: rgb(240, 0, 0);
+}
+
+.pjtdoutubro a:hover p {
+    color: rgb(240, 0, 0);;
+}
+
+.pjtdoutubro p {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.pjtdoutubro h6 {
+    margin: 5px 1%;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+}
+
+.pjtdoutubro h5 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: left;
+    font-size: 28px;
+    color: rgb(121, 228, 255);
+}
+
+.pjtdnovembro li {
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgb(42, 42, 209);
+    border-radius: 5px;
+    margin: 5px 15%;
+    background-color: rgb(42, 42, 209);
+    margin-bottom: 15px;
+    transition: 0.4s all;
+}
+
+.pjtdnovembro li a {
+    text-decoration: none;
+}
+
+.pjtdnovembro li:hover {
+    transform: scale(1.1,1.1);
+    border-color: rgb(240, 0, 0);
+}
+
+.pjtdnovembro a:hover p {
+    color: rgb(240, 0, 0);;
+}
+
+.pjtdnovembro p {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.pjtdnovembro h6 {
+    margin: 5px 1%;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+}
+
+.pjtdnovembro h5 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: left;
+    font-size: 28px;
+    color: rgb(121, 228, 255);
 }
 
 footer {
@@ -37,10 +185,21 @@ footer {
     color: white;
 }
 
+.slafooter h1 {
+    font-size: 60px;
+}
+
 .slafooter h3 {
-    font-size: 50px;
+    font-size: 80px;
     margin: 20px;
 }
 
-
+.linhafoda {
+    width: 5px;
+    height: 920px;
+    background-color: rgb(42, 42, 209);
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: -930px;
+}
 
