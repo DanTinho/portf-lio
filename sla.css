@@ -3,10 +3,14 @@
     src: url('Poker.ttf');
 }
 
+@font-face {
+    font-family: "PokerinOctober";
+    src: url('PokerInOctober-Demo.otf');
+}
+
 header {
-    background-color: rgb(129, 69, 13);
+    background-color: rgb(18, 132, 0);
     padding: 20px 0;
-    font-family: "Poker";
 }
 
 .slafodase {
@@ -14,24 +18,27 @@ header {
 }
 
 .slafodase h1{
-    color: black;
-    font-size: 120px;
+    color: white;
+    font-size: 100px;
+    font-family: "PokerinOctober";
 }
 
 .slamain h1 {
+    font-family: "PokerinOctober";
     text-align: center;
     text-decoration: underline;
-    font-size: 60px;
+    font-size: 80px;
     margin-bottom: 10px;
     margin-top: 0px
 }
 
 .slamain h2{
+    font-family: "Poker";
     text-align: center;
-    text-decoration: underline;
-    font-size: 50px;
+    font-size: 100px;
     color: rgb(240, 0, 0);
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*SETEMRBO*/
@@ -47,8 +54,8 @@ header {
     vertical-align: top;
     position: relative;
     box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 5px solid rgb(129, 69, 13);
+    border-radius: 50px;
     margin: 50px 15%;
     margin-bottom: 15px;
     transition: 0.5s all;
@@ -82,8 +89,8 @@ header {
 .pjtdsetembro a:hover p {
     color: rgb(240, 0, 0);
     visibility: hidden;
-    margin-top: 22px;
-    margin-bottom: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 28px;
 }
 
@@ -98,7 +105,6 @@ header {
     font-size: 40px;
     font-weight: bold;
     color: white;
-    font-family: "PokerinOctober";
 }
 
 .pjtdsetembro h6 {
@@ -132,8 +138,8 @@ header {
     vertical-align: top;
     position: relative;
     box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 5px solid rgb(129, 69, 13);
+    border-radius: 50px;
     margin: 50px 15%;
     margin-bottom: 15px;
     transition: 0.4s all;
@@ -167,8 +173,8 @@ header {
 .pjtdoutubro a:hover p {
     color: rgb(240, 0, 0);
     visibility: hidden;
-    margin-top: 22px;
-    margin-bottom: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 28px;
 }
 
@@ -183,12 +189,11 @@ header {
     font-size: 40px;
     font-weight: bold;
     color: white;
-    font-family: "PokerinOctober";
 }
 
 .pjtdoutubro h6 {
     margin: 5px 1%;
-    text-align: left;
+    text-align: center;
     font-size: 30px;
     color: white;
     font-family: "PokerinOctober";
@@ -197,7 +202,7 @@ header {
 .pjtdoutubro h5 {
     margin-top: 1px;
     margin-bottom: 1px;
-    text-align: left;
+    text-align: center;
     font-size: 28px;
     color: rgb(121, 228, 255);
     margin-left: 2px;
@@ -217,8 +222,8 @@ header {
     vertical-align: top;
     position: relative;
     box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 5px solid rgb(129, 69, 13);
+    border-radius: 50px;
     margin: 50px 15%;
     margin-bottom: 15px;
     transition: 0.4s all;
@@ -252,8 +257,8 @@ header {
 .pjtdnovembro a:hover p {
     color: rgb(240, 0, 0);
     visibility: hidden;
-    margin-top: 22px;
-    margin-bottom: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 28px;
 }
 
@@ -268,12 +273,11 @@ header {
     font-size: 40px;
     font-weight: bold;
     color: white;
-    font-family: "PokerinOctober";
 }
 
 .pjtdnovembro h6 {
     margin: 5px 1%;
-    text-align: left;
+    text-align: center;
     font-size: 30px;
     color: white;
     font-family: "PokerinOctober";
@@ -282,25 +286,20 @@ header {
 .pjtdnovembro h5 {
     margin-top: 1px;
     margin-bottom: 1px;
-    text-align: left;
+    text-align: center;
     font-size: 28px;
     color: rgb(121, 228, 255);
     margin-left: 2px;
 }
 
 footer {
-    background-color: rgb(129, 69, 13);
+    background-color: rgb(18, 132, 0);
     padding: 20px 0;
 }
 
 .slafooter {
     text-align: center;
     color: white;
-}
-
-@font-face {
-    font-family: "PokerinOctober";
-    src: url('PokerInOctober-Demo.otf');
 }
 
 .slafooter h1 {
@@ -315,11 +314,11 @@ footer {
 }
 
 .linhafoda {
-    width: 5px;
-    height: 980px;
+    width: 10px;
+    height: 1000px;
     background-color: rgb(129, 69, 13);
-    margin: auto;
+    margin: 0 auto;
     margin-bottom: 50px;
-    margin-top: -1020px;
+    margin-top: -1030px;
 }
 
