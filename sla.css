@@ -9,8 +9,9 @@
 }
 
 header {
-    background-color: rgb(18, 132, 0);
+    background-color: rgb(129, 69, 13);
     padding: 20px 0;
+    border: 5px solid black;
 }
 
 .slafodase {
@@ -36,9 +37,19 @@ header {
     font-family: "Poker";
     text-align: center;
     font-size: 100px;
-    color: rgb(240, 0, 0);
+    color: rgb(197, 6, 6);
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: -25px;
+    background-color: rgb(84, 168, 91);
+    width: 430px;
+    margin: auto;
+    border: 5px solid rgb(70, 51, 0);;
+}
+
+main {
+    background-image: linear-gradient(to top, rgb(33, 209, 6), rgb(86, 255, 60));
+    border: 1px solid rgb(70, 51, 0);
+    height: 5120px;
 }
 
 /*SETEMRBO*/
@@ -49,17 +60,18 @@ header {
 
 .pjtdsetembro li {
     display: inline-block;
-    width: 350px;
+    width: 300px;
+    height: 400px;
     text-align: center;
     vertical-align: top;
     position: relative;
     box-sizing: border-box;
-    border: 5px solid rgb(129, 69, 13);
-    border-radius: 50px;
+    border: 15px double black;
+    border-radius: 15px;
     margin: 50px 15%;
     margin-bottom: 15px;
     transition: 0.5s all;
-    background-color: rgb(18, 132, 0);
+    background-color: white;
 }
 
 .pjtdsetembro li a {
@@ -74,8 +86,8 @@ header {
 .pjtdsetembro a:hover .as {
     color: black;
     visibility: hidden;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 22px;
+    margin-bottom: 22px;
     margin-left: 28px;
 }
 
@@ -89,8 +101,8 @@ header {
 .pjtdsetembro a:hover p {
     color: rgb(240, 0, 0);
     visibility: hidden;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 22px;
+    margin-bottom: 22px;
     margin-left: 28px;
 }
 
@@ -102,16 +114,20 @@ header {
 }
 
 .pjtdsetembro p {
-    font-size: 40px;
+    font-size: 42px;
     font-weight: bold;
-    color: white;
+    color: red;
+}
+
+.pjtdsetembro .as {
+    color: black;
 }
 
 .pjtdsetembro h6 {
     margin: 5px 1%;
     text-align: center;
-    font-size: 30px;
-    color: white;
+    font-size: 32px;
+    color: black;
     font-family: "PokerinOctober";
 }
 
@@ -119,31 +135,36 @@ header {
     margin-top: 1px;
     margin-bottom: 1px;
     text-align: center;
-    font-size: 28px;
-    color: rgb(121, 228, 255);
+    font-size: 30px;
+    color: rgb(1, 154, 192);
     margin-left: 2px;
 }
 
 /*OUTUBRO*/
 
 .pjtdoutubro {
-    margin-top: 10px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.pjtdoutubro h2 {
     text-align: center;
 }
 
 .pjtdoutubro li {
     display: inline-block;
+    width: 300px;
+    height: 400px;
     text-align: center;
-    width: 350px;
     vertical-align: top;
     position: relative;
     box-sizing: border-box;
-    border: 5px solid rgb(129, 69, 13);
-    border-radius: 50px;
+    border: 15px double black;
+    border-radius: 15px;
     margin: 50px 15%;
     margin-bottom: 15px;
-    transition: 0.4s all;
-    background-color: rgb(18, 132, 0);
+    transition: 0.5s all;
+    background-color: white;
 }
 
 .pjtdoutubro li a {
@@ -158,8 +179,8 @@ header {
 .pjtdoutubro a:hover .as {
     color: black;
     visibility: hidden;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 22px;
+    margin-bottom: 22px;
     margin-left: 28px;
 }
 
@@ -173,8 +194,8 @@ header {
 .pjtdoutubro a:hover p {
     color: rgb(240, 0, 0);
     visibility: hidden;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 22px;
+    margin-bottom: 22px;
     margin-left: 28px;
 }
 
@@ -186,16 +207,20 @@ header {
 }
 
 .pjtdoutubro p {
-    font-size: 40px;
+    font-size: 42px;
     font-weight: bold;
-    color: white;
+    color: red;
+}
+
+.pjtdoutubro .as {
+    color: black;
 }
 
 .pjtdoutubro h6 {
     margin: 5px 1%;
     text-align: center;
-    font-size: 30px;
-    color: white;
+    font-size: 32px;
+    color: black;
     font-family: "PokerinOctober";
 }
 
@@ -203,31 +228,32 @@ header {
     margin-top: 1px;
     margin-bottom: 1px;
     text-align: center;
-    font-size: 28px;
-    color: rgb(121, 228, 255);
+    font-size: 30px;
+    color: rgb(1, 154, 192);
     margin-left: 2px;
 }
 
 /*NOVEMBRO*/
 
 .pjtdnovembro {
-    margin-top: 10px;
+    margin-top: 70px;
     text-align: center;
 }
 
 .pjtdnovembro li {
     display: inline-block;
+    width: 300px;
+    height: 400px;
     text-align: center;
-    width: 350px;
     vertical-align: top;
     position: relative;
     box-sizing: border-box;
-    border: 5px solid rgb(129, 69, 13);
-    border-radius: 50px;
+    border: 15px double black;
+    border-radius: 15px;
     margin: 50px 15%;
     margin-bottom: 15px;
-    transition: 0.4s all;
-    background-color: rgb(18, 132, 0);
+    transition: 0.5s all;
+    background-color: white;
 }
 
 .pjtdnovembro li a {
@@ -242,8 +268,8 @@ header {
 .pjtdnovembro a:hover .as {
     color: black;
     visibility: hidden;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 22px;
+    margin-bottom: 22px;
     margin-left: 28px;
 }
 
@@ -257,8 +283,8 @@ header {
 .pjtdnovembro a:hover p {
     color: rgb(240, 0, 0);
     visibility: hidden;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 22px;
+    margin-bottom: 22px;
     margin-left: 28px;
 }
 
@@ -270,16 +296,20 @@ header {
 }
 
 .pjtdnovembro p {
-    font-size: 40px;
+    font-size: 42px;
     font-weight: bold;
-    color: white;
+    color: red;
+}
+
+.pjtdnovembro .as {
+    color: black;
 }
 
 .pjtdnovembro h6 {
     margin: 5px 1%;
     text-align: center;
-    font-size: 30px;
-    color: white;
+    font-size: 32px;
+    color: black;
     font-family: "PokerinOctober";
 }
 
@@ -287,14 +317,15 @@ header {
     margin-top: 1px;
     margin-bottom: 1px;
     text-align: center;
-    font-size: 28px;
-    color: rgb(121, 228, 255);
+    font-size: 30px;
+    color: rgb(1, 154, 192);
     margin-left: 2px;
 }
 
 footer {
-    background-color: rgb(18, 132, 0);
+    background-color: rgb(129, 69, 13);
     padding: 20px 0;
+    border: 5px solid black;
 }
 
 .slafooter {
@@ -314,11 +345,11 @@ footer {
 }
 
 .linhafoda {
-    width: 10px;
-    height: 1000px;
+    width: 7px;
+    height: 1380px;
     background-color: rgb(129, 69, 13);
     margin: 0 auto;
     margin-bottom: 50px;
-    margin-top: -1030px;
+    margin-top: -1370px;
 }
 
