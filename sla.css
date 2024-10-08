@@ -9,7 +9,7 @@
 }
 
 header {
-    background-color: rgb(129, 69, 13);
+    background-color: rgb(167, 93, 25);
     padding: 20px 0;
     border: 5px solid black;
 }
@@ -47,9 +47,9 @@ header {
 }
 
 main {
-    background-image: linear-gradient(to top, rgb(33, 209, 6), rgb(86, 255, 60));
-    border: 1px solid rgb(70, 51, 0);
-    height: 5120px;
+    background-image: linear-gradient(to top, rgb(13, 74, 3), rgb(35, 209, 8));
+    border: 2px solid rgb(70, 51, 0);
+    height: 2510px;
 }
 
 /*SETEMRBO*/
@@ -346,10 +346,11 @@ footer {
 
 .linhafoda {
     width: 7px;
-    height: 1380px;
+    height: 900px;
     background-color: rgb(129, 69, 13);
     margin: 0 auto;
     margin-bottom: 50px;
-    margin-top: -1370px;
+    margin-top: -900px;
+    border: 2px solid black;
 }
 
